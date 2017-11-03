@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/areaType.do" location="50,50" dimension="206,104" />
+  <StrutsActivity path="/admin.do" location="350,50" dimension="188,104" />
+  <StrutsActivity path="/shuiguoType.do" location="1550,50" dimension="289,116" />
+  <StrutsActivity path="/begRent.do" location="950,50" dimension="200,104" />
+  <StrutsActivity path="/users.do" location="1250,50" dimension="184,104" />
+  <StrutsActivity path="/business.do" location="50,250" dimension="233,116" />
+  <StrutsActivity path="/leaseShuiguo.do" location="1550,250" dimension="294,116" />
+  <StrutsActivity path="/usersInfo.do" location="350,250" dimension="207,104" />
+  <StrutsActivity path="/actTable.do" location="650,250" dimension="201,104" />
+  <StrutsActivity path="/chooseShuiguo.do" location="1550,450" dimension="308,116" />
+  <StrutsActivity path="/index.jsp" location="1250,250" dimension="88,53" />
+  <StrutsActivity path="/Areaht.jsp" location="50,450" dimension="95,53" />
+  <StrutsActivity path="/SelAdmin.jsp" location="350,450" dimension="111,53" />
+  <StrutsActivity path="/adminLogin.jsp" location="650,450" dimension="125,53" />
+  <StrutsActivity path="/htindex.jsp" location="950,450" dimension="99,53" />
+  <StrutsActivity path="/ShowShuiguo_type.jsp" location="1550,650" dimension="208,56" />
+  <StrutsActivity path="/userqz.jsp" location="50,650" dimension="96,53" />
+  <StrutsActivity path="/qzbindex.jsp" location="950,250" dimension="135,56" />
+  <StrutsActivity path="/qzinfo.jsp" location="350,650" dimension="93,53" />
+  <StrutsActivity path="/qzindex.jsp" location="650,650" dimension="102,53" />
+  <StrutsActivity path="/begRent.jsp" location="950,650" dimension="106,53" />
+  <StrutsActivity path="/userupdate.jsp" location="1250,650" dimension="123,53" />
+  <StrutsActivity path="update_pwd.jsp" location="50,850" dimension="123,53" />
+  <StrutsActivity path="/user.jsp" location="350,850" dimension="82,53" />
+  <StrutsActivity path="/showUinfo.jsp" location="650,850" dimension="118,53" />
+  <StrutsActivity path="/showUsers.jsp" location="950,850" dimension="120,53" />
+  <StrutsActivity path="/userLogin.jsp" location="1250,850" dimension="114,53" />
+  <StrutsActivity path="/bindex.jsp" location="1850,850" dimension="118,56" />
+  <StrutsActivity path="/businessInfo1.jsp" location="1850,650" dimension="167,56" />
+  <StrutsActivity path="/business.jsp" location="350,1450" dimension="130,56" />
+  <StrutsActivity path="/updateShuiguo.jsp" location="1550,850" dimension="180,56" />
+  <StrutsActivity path="/shuiguo.jsp" location="1550,1050" dimension="126,56" />
+  <StrutsActivity path="/usercz.jsp" location="950,1050" dimension="94,53" />
+  <StrutsActivity path="/showshuiguo.jsp" location="1550,1250" dimension="164,56" />
+  <StrutsActivity path="/shuiguoInfo.jsp" location="50,1450" dimension="154,56" />
+  <StrutsActivity path="/userInfo.jsp" location="50,1250" dimension="105,53" />
+  <StrutsActivity path="/actInfo.jsp" location="350,1250" dimension="97,53" />
+  <StrutsActivity path="/report.jsp" location="650,1250" dimension="94,53" />
+  <StrutsActivity path="/chooseshuiguo.jsp" location="1250,1450" dimension="179,56" />
+  <StrutsActivity path="/form/chooseShuiguo.jsp" location="1550,1450" dimension="222,56" />
+  <StrutsActivity path="/ShowMiaomu_type.jsp" location="1250,450" dimension="166,53" />
+  <StrutsActivity path="/updateMiaomu.jsp" location="50,1050" dimension="146,53" />
+  <StrutsActivity path="/showmiaomu.jsp" location="350,1050" dimension="134,53" />
+  <StrutsActivity path="/miaomu.jsp" location="650,1050" dimension="104,53" />
+  <StrutsActivity path="/miaomuInfo.jsp" location="1250,1050" dimension="127,53" />
+  <StrutsActivity path="/choosemiaomu.jsp" location="950,1250" dimension="146,53" />
+  <StrutsActivity path="/form/chooseMiaomu.jsp" location="1250,1250" dimension="180,53" />
+  <StrutsActivity path="/regBusiness.jsp" location="650,1450" dimension="154,56" />
+  <StrutsActivity path="/users.jsp" location="950,1450" dimension="106,56" />
+  <StrutsActivity path="/businessInfo.jsp" location="650,1650" dimension="158,56" />
+  <StrutsTransition id="/begRent.do,qiuzu,/userqz.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin.do,loginok,/htindex.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/business.do,index,/bindex.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="166,308" />
+      <AbsolutePoint location="1909,878" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/areaType.do,ok,/Areaht.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/begRent.do,showinfo,/qzinfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/users.do,update,update_pwd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/business.do,usok,/bindex.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="188,366" />
+      <AbsolutePoint location="188,981" />
+      <AbsolutePoint location="1909,981" />
+      <AbsolutePoint location="1909,906" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/leaseShuiguo.do,update,/updateShuiguo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/business.do,show,/showUsers.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="1010,876" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/users.do,index,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/actTable.do,showLessInfo,/actInfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/business.do,business,/business.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="249,366" />
+      <AbsolutePoint location="249,1381" />
+      <AbsolutePoint location="415,1381" />
+      <AbsolutePoint location="415,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/leaseShuiguo.do,show,/shuiguo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/areaType.do,isnu,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/business.do,update,update_pwd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="111,876" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/shuiguoType.do,show,/ShowShuiguo_type.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/users.do,usok,/user.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/chooseShuiguo.do,show,/chooseshuiguo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/begRent.do,up,/userupdate.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/leaseShuiguo.do,bindex,/bindex.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1697,308" />
+      <AbsolutePoint location="1909,878" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/users.do,showinfo,/showUinfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/usersInfo.do,usersInfo,/userInfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/leaseShuiguo.do,showshuiguo,/showshuiguo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/users.do,login,/userLogin.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/leaseShuiguo.do,info,/shuiguoInfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/users.do,show,/showUsers.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/form/chooseShuiguo.jsp,null,/chooseShuiguo.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/begRent.do,show,/qzindex.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/business.do,login,/userLogin.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="1307,876" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/leaseShuiguo.do,ok,/usercz.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="997,1076" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/begRent.do,bshow,/qzbindex.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1050,102" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin.do,look,/SelAdmin.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/usersInfo.do,user,/user.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/leaseShuiguo.do,index,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="1294,276" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/actTable.do,rep,/report.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/business.do,showinfo,/showUinfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="709,876" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/begRent.do,showbr,/begRent.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin.do,login,/adminLogin.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/business.do,businessInfo,/businessInfo1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="158,366" />
+      <AbsolutePoint location="158,781" />
+      <AbsolutePoint location="1933,781" />
+      <AbsolutePoint location="1933,706" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

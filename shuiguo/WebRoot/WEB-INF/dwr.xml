@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr
+ PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN"
+ "http://getahead.org/dwr/dwr20.dtd">
+<dwr>
+	<allow>
+		<create javascript="image" creator="new">
+			<param name="class"
+				value="server.impl.ImageTableServerImpl">
+			</param>
+		</create>
+		<create javascript="leaseShuiguo" creator="new">
+			<param name="class"
+				value="server.impl.LeaseShuiguoServerImpl">
+			</param>
+		</create>
+		<create javascript="cshuiguo" creator="new">
+			<param name="class"
+				value="server.impl.ChooseshuiguoServerImpl">
+			</param>
+		</create>
+		<create javascript="admin" creator="new">
+			<param name="class" value="server.impl.AdminServerImpl"></param>
+		</create>
+		<create javascript="user" creator="new">
+			<param name="class" value="server.impl.UserServerImpl"></param>
+		</create>
+			<create javascript="business" creator="new">
+			<param name="class" value="server.impl.BusinessServerImpl"></param>
+		</create>
+		<!-- 注册JavaBean -->
+		<convert converter="bean" match="entity.ImageTable"></convert>
+		<convert converter="bean" match="entity.ChooseShuiguo"></convert>
+		<convert converter="bean" match="entity.LeaseShuiguo"></convert>
+		<convert converter="bean" match="entity.ShuiguoType"></convert>
+		<convert converter="bean" match="entity.AreaType"></convert>
+		<convert converter="bean" match="entity.Users"></convert>
+		<convert converter="bean" match="entity.Business"></convert>
+		<convert converter="bean" match="entity.Admin"></convert>
+		<convert converter="bean" match="entity.UsersInfo"></convert>
+	</allow>
+
+</dwr>
